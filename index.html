@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/5107cfbfa4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="left half">
+        <p class="title half-white-text text-center">Your Result</p>
+        <div class="round">
+          <p class="number">76</p>
+          <p class="half-white-text">of 100</p>
+        </div>
+        <p class="title-large white-text text-center">Great</p>
+        <p class="description half-white-text text-center">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="right half">
+        <p class="title secondary-color-text">Summary</p>
+        <div class="elements">
+          <div class="element element-red">
+            <div class="icon-label">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="reaction"
+                class="icon"
+              />
+              <p class="element-label red-color">Reaction</p>
+            </div>
+
+            <p class="element-label secondary-color-text">
+              80 <span class="half-secondary-color">/ 100</span>
+            </p>
+          </div>
+          <div class="element element-yellow">
+            <div class="icon-label">
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="brain"
+                class="icon"
+              />
+              <p class="element-label yellow-color">Memory</p>
+            </div>
+
+            <p class="element-label secondary-color-text">
+              92 <span class="half-secondary-color">/ 100</span>
+            </p>
+          </div>
+          <div class="element element-green">
+            <div class="icon-label">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="comment"
+                class="icon"
+              />
+              <p class="element-label green-color">Verbal</p>
+            </div>
+            <p class="element-label secondary-color-text">
+              61 <span class="half-secondary-color">/ 100</span>
+            </p>
+          </div>
+          <div class="element element-blue">
+            <div class="icon-label">
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="eye"
+                class="icon"
+              />
+              <p class="element-label blue-color">Visual</p>
+            </div>
+
+            <p class="element-label secondary-color-text">
+              72 <span class="half-secondary-color">/ 100</span>
+            </p>
+          </div>
+        </div>
+
+        <button class="btn">Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Anh</a>.
+    </div>
+  </body>
+</html>
